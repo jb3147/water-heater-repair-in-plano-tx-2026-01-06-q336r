@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="24/7 emergency water heater repair service in Plano, TX. Fast response times, licensed technicians available day and night. Call Plano Plumbing for immediate assistance.">
+    <title>24/7 Emergency Water Heater Service | Plano Plumbing</title>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Configuration -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#000000',
+                        secondary: '#FFFFFF',
+                        accent: '#4A90E2',
+                        dark: {
+                            900: '#0f172a', // Slate 900
+                            800: '#1e293b', // Slate 800
+                            700: '#334155', // Slate 700
+                        }
+                    },
+                    backgroundImage: {
+                        'hero-pattern': "url('https://images.unsplash.com/photo-1581094288338-2314dddb7ece?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')",
+                        'cta-pattern': "url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1932&q=80')", // Office/Teamwork theme
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+        .text-gradient {
+            background: linear-gradient(to right, #4A90E2, #60A5FA);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="antialiased overflow-x-hidden">
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-dark-900/90 backdrop-blur-md border-b border-white/10 transition-all duration-300">
+        <nav class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 cursor-pointer">
+                    <a href="index.html" class="flex items-center gap-2 group">
+                        <div class="p-2 bg-accent rounded-lg group-hover:scale-110 transition-transform duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 7.5l-2.25-1.313M21 7.5v2.25m0-2.25l-2.25 1.313M3 7.5l2.25-1.313M3 7.5l2.25 1.313M3 7.5v2.25m9 3l2.25-1.313M12 12.75l-2.25-1.313M12 12.75V15m0 6.75l2.25-1.313M12 21.75V19.5m0 2.25l-2.25-1.313m0-16.875L12 2.25l2.25 1.313M21 14.25v2.25l-2.25 1.313m-13.5 0L3 16.5v-2.25" />
+                            </svg>
+                        </div>
+                        <span class="text-xl font-bold tracking-tight text-white group-hover:text-accent transition-colors">Plano Plumbing</span>
+                    </a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html" class="text-gray-300 hover:text-accent hover:bg-white/5 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">Home</a>
+                        <a href="index.html#services" class="text-gray-300 hover:text-accent hover:bg-white/5 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">Services</a>
+                        <a href="index.html#features" class="text-gray-300 hover:text-accent hover:bg-white/5 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">Features</a>
+                        <a href="index.html#about" class="text-gray-300 hover:text-accent hover:bg-white/5 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">About</a>
+                        <a href="index.html#testimonials" class="text-gray-300 hover:text-accent hover:bg-white/5 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">Reviews</a>
+                        <a href="index.html#faq" class="text-gray-300 hover:text-accent hover:bg-white/5 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">FAQ</a>
+                    </div>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="-mr-2 flex md:hidden">
+                    <button type="button" class="mobile-menu-button inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white transition-all duration-300">
+                        <span class="sr-only">Open main menu</span>
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu Panel -->
+        <div class="mobile-menu hidden md:hidden bg-dark-800 border-b border-white/10">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html" class="text-gray-300 hover:text-white hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                <a href="index.html#services" class="text-gray-300 hover:text-white hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Services</a>
+                <a href="index.html#features" class="text-gray-300 hover:text-white hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Features</a>
+                <a href="index.html#about" class="text-gray-300 hover:text-white hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">About</a>
+                <a href="index.html#testimonials" class="text-gray-300 hover:text-white hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Reviews</a>
+                <a href="index.html#faq" class="text-gray-300 hover:text-white hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">FAQ</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative pt-32 pb-16 md:pt-40 md:pb-20 overflow-hidden bg-gradient-to-br from-dark-900 via-dark-800 to-dark-900">
+        <!-- Background Accent -->
+        <div class="absolute top-0 right-0 w-96 h-96 bg-accent/10 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 w-72 h-72 bg-red-600/5 rounded-full blur-3xl"></div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center space-y-6 max-w-3xl mx-auto">
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-500/10 border border-red-500/30 text-red-400 font-medium text-sm">
+                    <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
+                    Available 24/7/365
+                </div>
+                
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-tight">
+                    24/7 Emergency <br>
+                    <span class="text-accent">Water Heater Service</span>
+                </h1>
+                
+                <p class="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed font-light">
+                    Water heater emergencies don't follow business hours. When your hot water fails at midnight, we're ready to help.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+                    <a href="tel:+1-469-XXX-XXXX" class="inline-flex justify-center items-center px-8 py-3 rounded-full bg-accent text-white font-semibold text-lg hover:bg-blue-500 hover:scale-105 hover:shadow-[0_0_20px_rgba(74,144,226,0.5)] transition-all duration-300">
+                        Call Now
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ml-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.733.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                        </svg>
+                    </a>
+                    <a href="#process" class="inline-flex justify-center items-center px-8 py-3 rounded-full border border-gray-600 text-gray-300 font-medium hover:text-white hover:border-accent hover:bg-white/5 transition-all duration-300">
+                        How It Works
+                    </a>
+                </div>
+
+                <div class="flex flex-col sm:flex-row justify-center gap-8 pt-8 text-sm text-gray-400">
+                    <div class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-green-400">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        60-90 Minute Response
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-green-400">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        Available Nights & Weekends
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-green-400">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        Licensed Technicians
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Overview Section -->
+    <section id="overview" class="py-20 md:py-32 bg-dark-800 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="relative">
+                    <div class="absolute -top-4 -left-4 w-72 h-72 bg-accent/20 rounded-full blur-3xl"></div>
+                    <img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Emergency Water Heater Repair" class="relative z-10 rounded-2xl shadow-2xl">
+                </div>
+                
+                <div class="space-y-6">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">When You Need Help Most</h2>
+                    
+                    <div class="space-y-4 text-gray-300 leading-relaxed font-light text-lg">
+                        <p>
+                            A water heater failure is never convenient. Whether it's the middle of the night, early Sunday morning, or a holiday weekend, a broken water heater becomes an urgent problem that needs immediate attention. Cold showers aren't just uncomfortable—they can disrupt your entire household and potentially cause damage to your home if leaks go unaddressed.
+                        </p>
+                        <p>
+                            That's why Plano Plumbing offers true 24/7 emergency service. Our emergency team is staffed and ready to respond to your call at any hour. We understand the stress of an unexpected failure and make it our priority to get hot water restored to your home as quickly as possible, whether you need an emergency repair or a same-day replacement.
+                        </p>
+                        <p>
+                            Our emergency service is designed for homeowners and property managers who can't afford to wait until Monday morning. We arrive with fully stocked service vehicles, diagnostic equipment, and the expertise to handle any water heater emergency—from burst pipes and leaking tanks to complete system failures.
+                        </p>
+                    </div>
+
+                    <div class="pt-4 space-y-3">
+                        <div class="flex items-start gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-accent shrink-0 mt-1">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span class="text-white"><strong>Who It's For:</strong> Homeowners, landlords, and property managers needing immediate water heater assistance</span>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-accent shrink-0 mt-1">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span class="text-white"><strong>The Problem We Solve:</strong> Eliminates the panic and downtime of unexpected water heater failures outside regular business hours</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-20 md:py-32 bg-dark-900 relative overflow-hidden">
+        <div class="absolute inset-0">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-0 left-1/2 w-96 h-96 bg-blue-600/5 rounded-full blur-3xl"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Why Choose Our Emergency Service</h2>
+                <p class="text-gray-400 text-lg">Get the support you need when you need it most, with no waiting and no excuses.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Benefit 1 -->
+                <div class="group bg-dark-800 p-8 rounded-2xl border border-white/5 hover:border-accent/40 hover:shadow-lg hover:shadow-blue-900/20 hover:-translate-y-2 transition-all duration-300">
+                    <div class="w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center mb-6 text-accent group-hover:bg-accent group-hover:text-white transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Rapid Response</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Typically arrive within 60-90 minutes of your call, day or night. We prioritize emergency calls to get your water heater back online fast.</p>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="group bg-dark-800 p-8 rounded-2xl border border-white/5 hover:border-accent/40 hover:shadow-lg hover:shadow-blue-900/20 hover:-translate-y-2 transition-all duration-300">
+                    <div class="w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center mb-6 text-accent group-hover:bg-accent group-hover:text-white transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Fully Stocked Trucks</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Our emergency vehicles carry common replacement parts and tools. Most repairs are completed on the first visit without delays.</p>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="group bg-dark-800 p-8 rounded-2xl border border-white/5 hover:border-accent/40 hover:shadow-lg hover:shadow-blue-900/20 hover:-translate-y-2 transition-all duration-300">
+                    <div class="w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center mb-6 text-accent group-hover:bg-accent group-hover:text-white transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Expert Technicians</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Our emergency team consists of licensed, experienced professionals trained to handle high-pressure situations with expertise and professionalism.</p>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="group bg-dark-800 p-8 rounded-2xl border border-white/5 hover:border-accent/40 hover:shadow-lg hover:shadow-blue-900/20 hover:-translate-y-2 transition-all duration-300">
+                    <div class="w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center mb-6 text-accent group-hover:bg-accent group-hover:text-white transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Peace of Mind</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Know that help is just a phone call away, no matter what time your water heater fails. We handle the emergency so you don't have to stress.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="process" class="py-20 md:py-32 bg-dark-800 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Our Emergency Process</h2>
+                <p class="text-gray-400 text-lg">From your first call to restored hot water, here's how we handle your emergency.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-4 md:gap-2">
+                <!-- Step 1 -->
+                <div class="relative">
+                    <div class="bg-dark-900 border border-white/10 rounded-2xl p-6 text-center hover:border-accent/40 transition-colors duration-300 h-full flex flex-col justify-between">
+                        <div>
+                            <div class="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4 text-accent text-2xl font-bold">
+                                1
+                            </div>
+                            <h3 class="text-lg font-bold text-white mb-2">Call Us</h3>
+                            <p class="text-sm text-gray-400">Reach our emergency dispatch team 24/7. Describe your water heater issue briefly.</p>
+                        </div>
+                    </div>
+                    <div class="hidden md:block absolute top-1/2 -right-2 w-4 h-4 bg-accent rounded-full transform -translate-y-1/2 z-10"></div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="relative">
+                    <div class="bg-dark-900 border border-white/10 rounded-2xl p-6 text-center hover:border-accent/40 transition-colors duration-300 h-full flex flex-col justify-between">
+                        <div>
+                            <div class="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4 text-accent text-2xl font-bold">
+                                2
+                            </div>
+                            <h3 class="text-lg font-bold text-white mb-2">Dispatch</h3>
+                            <p class="text-sm text-gray-400">We dispatch the nearest available technician to your location immediately.</p>
+                        </div>
+                    </div>
+                    <div class="hidden md:block absolute top-1/2 -right-2 w-4 h-4 bg-accent rounded-full transform -translate-y-1/2 z-10"></div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="relative">
+                    <div class="bg-dark-900 border border-white/10 rounded-2xl p-6 text-center hover:border-accent/40 transition-colors duration-300 h-full flex flex-col justify-between">
+                        <div>
+                            <div class="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4 text-accent text-2xl font-bold">
+                                3
+                            </div>
+                            <h3 class="text-lg font-bold text-white mb-2">Arrive & Diagnose</h3>
+                            <p class="text-sm text-gray-400">Our technician arrives and quickly diagnoses the problem with your water heater.</p>
+                        </div>
+                    </div>
+                    <div class="hidden md:block absolute top-1/2 -right-2 w-4 h-4 bg-accent rounded-full transform -translate-y-1/2 z-10"></div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="relative">
+                    <div class="bg-dark-900 border border-white/10 rounded-2xl p-6 text-center hover:border-accent/40 transition-colors duration-300 h-full flex flex-col justify-between">
+                        <div>
+                            <div class="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4 text-accent text-2xl font-bold">
+                                4
+                            </div>
+                            <h3 class="text-lg font-bold text-white mb-2">Fix or Replace</h3>
+                            <p class="text-sm text-gray-400">We repair the issue or install a new unit, whatever gets you back to normal fastest.</p>
+                        </div>
+                    </div>
+                    <div class="hidden md:block absolute top-1/2 -right-2 w-4 h-4 bg-accent rounded-full transform -translate-y-1/2 z-10"></div>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="relative">
+                    <div class="bg-dark-900 border border-white/10 rounded-2xl p-6 text-center hover:border-accent/40 transition-colors duration-300 h-full flex flex-col justify-between">
+                        <div>
+                            <div class="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4 text-accent text-2xl font-bold">
+                                5
+                            </div>
+                            <h3 class="text-lg font-bold text-white mb-2">Hot Water!</h3>
+                            <p class="text-sm text-gray-400">Your water heater is restored and working. We clean up and leave your home as we found it.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 bg-accent/5 border border-accent/20 rounded-2xl p-8 text-center">
+                <p class="text-gray-300 text-lg"><strong class="text-white">Average Emergency Response:</strong> We arrive within 60-90 minutes in most cases, and many emergencies are resolved within 2-3 hours from your initial call.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="relative py-24 md:py-32 bg-cover bg-center bg-fixed" style="background-image: url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1932&q=80');">
+        <div class="absolute inset-0 bg-dark-900/85 backdrop-blur-sm"></div>
+        <div class="relative z-10 max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">Don't Wait in the Cold</h2>
+            <p class="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">When your water heater fails, we're ready. Call Plano Plumbing now for immediate emergency service, any time of day or night.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="tel:+1-469-XXX-XXXX" class="inline-flex justify-center items-center px-10 py-4 rounded-full bg-accent text-white font-bold text-lg hover:bg-blue-500 hover:scale-105 shadow-xl hover:shadow-2xl transition-all duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.733.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                    </svg>
+                    Call Now for Emergency Service
+                </a>
+                <a href="mailto:info@planowaterheater.com" class="inline-flex justify-center items-center px-10 py-4 rounded-full bg-white text-dark-900 font-bold text-lg hover:bg-gray-100 hover:scale-105 shadow-xl hover:shadow-2xl transition-all duration-300">
+                    Email Us
+                </a>
+            </div>
+            <p class="text-gray-400 mt-6 text-sm">Available 24/7 • No waiting • Licensed Technicians</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark-900 border-t border-white/5 pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- Brand Info -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-2">
+                        <div class="p-1.5 bg-accent rounded-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-white">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 7.5l-2.25-1.313M21 7.5v2.25m0-2.25l-2.25 1.313M3 7.5l2.25-1.313M3 7.5l2.25 1.313M3 7.5v2.25m9 3l2.25-1.313M12 12.75l-2.25-1.313M12 12.75V15m0 6.75l2.25-1.313M12 21.75V19.5m0 2.25l-2.25-1.313m0-16.875L12 2.25l2.25 1.313M21 14.25v2.25l-2.25 1.313m-13.5 0L3 16.5v-2.25" />
+                            </svg>
+                        </div>
+                        <span class="text-xl font-bold text-white">Plano Plumbing</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Your trusted local experts for 24/7 emergency water heater service in Plano, TX. Licensed, bonded, and insured.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-accent transition-colors"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-accent transition-colors"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-accent transition-colors"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-white font-bold mb-6">Contact Us</h3>
+                    <ul class="space-y-4 text-sm text-gray-400">
+                        <li class="flex items-start gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-accent shrink-0">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                            </svg>
+                            <span>Spring Creek, Plano<br>Texas 75044 United States</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-accent shrink-0">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                            </svg>
+                            <a href="mailto:info@planowaterheater.com" class="hover:text-white transition-colors">info@planowaterheater.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Navigation Links -->
+                <div>
+                    <h3 class="text-white font-bold mb-6">Quick Links</h3>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li><a href="index.html" class="hover:text-accent transition-colors">Home</a></li>
+                        <li><a href="index.html#services" class="hover:text-accent transition-colors">Services</a></li>
+                        <li><a href="contact.html" class="hover:text-accent transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal Links -->
+                <div>
+                    <h3 class="text-white font-bold mb-6">Legal</h3>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li><a href="privacy.html" class="hover:text-accent transition-colors">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="hover:text-accent transition-colors">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-white/5 pt-8 text-center">
+                <p class="text-xs text-gray-500">&copy; 2025 Plano Plumbing. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Functionality -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
